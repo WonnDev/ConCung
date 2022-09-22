@@ -100,7 +100,7 @@ body{
 /* slide */
 .font-concung{
     font-family: cursive;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bolder;
 }
 
@@ -254,4 +254,42 @@ body{
 }
 .carousel-control-next, .carousel-control-prev{
     z-index: 10 !important;
+}
+
+/** Baby Care**/
+.noti-title{
+    background-color: #ee3e80;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 5px;
+}
+.group-title-item a{
+    padding: 0;
+}
+.title-info{
+    overflow: hidden;
+    font-size: 22px;
+    height: 50px;
+    line-height: 25px;  
+    text-overflow: ellipsis;
+}
+.index-babycare{
+    overflow: hidden;
+    line-height: 20px;
+    height: 80px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
+
+/**another product**/
+
+.detal-more-next-page{
+    text-align: center;
+    margin:20px 0;
+}
+.border-blue{
+    border: 1px solid var(--bs-link-hover-color);
+    border-radius: 5px;
+    padding: 8px 30px;
 }
