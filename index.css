@@ -99,7 +99,7 @@ body{
 /* endheade r*/
 /* slide */
 .font-concung{
-    font-family: cursive;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
     font-weight: bolder;
 }
@@ -262,23 +262,24 @@ body{
     color: whitesmoke;
     text-transform: uppercase;
     font-size: 10px;
-    margin: 5px;
+    padding: 4px;
 }
 .group-title-item a{
     padding: 0;
 }
 .title-info{
-    overflow: hidden;
-    font-size: 22px;
-    height: 50px;
-    line-height: 25px;  
     text-overflow: ellipsis;
-}
-.index-babycare{
+    font-weight: 800;
     overflow: hidden;
+    height: 40px;
+    font-size: 20px;
+}
+
+.index-babycare{
     line-height: 20px;
     height: 80px;
-    font-size: 16px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
@@ -292,4 +293,37 @@ body{
     border: 1px solid var(--bs-link-hover-color);
     border-radius: 5px;
     padding: 8px 30px;
+}
+.color-black{
+    color:black;
+}
+.group-item-news-babycare{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+/**footer**/
+.footer-up{
+    background: url(img/bg-footer.png) no-repeat bottom center;
+    background-size: cover;
+    font-size: 12px;
+    /* line-height: 2; */
+}
+.footer-under ul li a {
+    color: #555;
+}
+.footer-under ul li {
+    list-style: none;
+}
+.footer-under ul {
+    padding-left: 0;
+}
+.footer-under {
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+    color: #555;
+}
+.title-top-info{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
 }
