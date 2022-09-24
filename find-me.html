@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col">
                     <div class="d-flex center">
-                        <div class="img-item center jus">
+                        <div class="img-item center shadow-icon">
                             <img class="img-item-info" style="margin-top: 10px;" src="img/ic-store.svg" alt="">
                             
                         </div>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="col">
                     <div class="d-flex center">
-                        <div class="img-item center">
+                        <div class="img-item center shadow-icon">
                             <img class="img-item-info" style="margin-top: 10px;" src="img/ic-customers.svg" alt="">
                         </div>
                         <span style="padding-left:8px;">5,606,445<br>thành viên</span>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col">
                     <div class="d-flex center">
-                        <div class="img-item center">
+                        <div class="img-item center shadow-icon">
                             <img class="img-item-info" style="margin-top: 10px;" src="img/ic-time.svg" alt="">
                         </div>
                         <span style="padding-left:8px;">Mở cửa 8-22h<br>các ngày trong năm</span>
@@ -46,7 +46,7 @@
 
             <div class="row">
                 <div class="col-7">
-                    <div id="googleMap" style="width:100%;height:500px;"></div>
+                
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501725.3392816164!2d106.41435381175951!3d10.755340455303273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1663927662902!5m2!1svi!2s" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     
                 </div>
@@ -65,8 +65,42 @@
                                 <option value="769">Q.2</option>
                             </select>
                         </div>
-
                     </div>
+                    <ul class="list-scroll">
+                        <div style="border-top: 1px solid gray;padding-bottom: 7px;"></div>
+                        <li class="center" style="margin-bottom: 5px;">
+                            <span>
+                                <b>Q.2</b>
+                                38 Trần Não, P. Bình An (Gần CV Dạ Cầu Sài Gòn 1)
+                                <span id=""></span>
+                            </span>
+                            <div class="d-flex" style="align-items: center;">
+                                <div style="width:40px;margin-left: 10px;text-align: center;font-size: 12px;">
+                                    <a href="https://zalo.me/" target="_blank">Nhóm<br>Zalo</a>
+                                </div>
+                                <div style="width:40px;margin-left: 10px;font-size: 12px;">08:00 - 22:00</div>
+                                <div style="height:15px;width:15px;margin: auto;margin-left: 10px;cursor:pointer;" class="ic-direct-map"></div>
+                            </div>
+                        </li>
+                        <div style="border-top: 1px solid rgb(238,238,238);padding-bottom: 7px;"></div>
+                        <li class="center" style="margin-bottom: 5px;">
+                            <span>
+                                <b>Q.2</b>
+                                38 Trần Não, P. Bình An (Gần CV Dạ Cầu Sài Gòn 1)
+                                <span id=""></span>
+                            </span>
+                            <div class="d-flex" style="align-items: center;">
+                                <div style="width:40px;margin-left: 10px;text-align: center;font-size: 12px;">
+                                    <a href="https://zalo.me/" target="_blank">Nhóm<br>Zalo</a>
+                                </div>
+                                <div style="width:40px;margin-left: 10px;font-size: 12px;">08:00 - 22:00</div>
+                                <div style="height:15px;width:15px;margin: auto;margin-left: 10px;cursor:pointer;" class="ic-direct-map"></div>
+                            </div>
+                        </li>
+                        <div style="border-top: 1px solid rgb(238,238,238);padding-bottom: 7px;"></div>
+                        
+                        <div style="border-top: 1px solid gray;padding-bottom: 7px;"></div>
+                    </ul>
                 </div>
             </div>
             <div class="img-fullscreen row" style="padding: 20px 0 ;">
@@ -76,17 +110,9 @@
         </div>
     </section>
 
-    <script>
-        function myMap() {
-            var mapProp= {
-                center:new google.maps.LatLng(10.762622, 106.660172),
-                zoom:7,
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-    </script>
+    
 
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
 </body>
 </html>

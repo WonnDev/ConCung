@@ -10,15 +10,34 @@ body{
     font-size: 15px;
 }
 .color-text-menubar{
-    color: rgb(65, 64, 64);
+    color: #111111;
 }
 .color-text-menubar:hover{
     color:#f54282
 }
-.menubar{
-    justify-content: space-between;
-    height: 30px;
+/****show menu hide****/
+.menu-hover {
+    position: relative;
+    display: inline-block;
 }
+.menu-hover-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+.menu-hover:hover .menu-hover-content {
+    display: block;
+}
+.menu-hover-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    height: 200px;
+}
+/*********/
 .color-pink{
     text-decoration: none;
     color:#f54282
@@ -437,4 +456,23 @@ body{
     border-radius: 8px;
     appearance: none;
     outline: 0;
+}
+.shadow-icon{
+    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 10%);
+}
+.list-scroll {
+    overflow-x: hidden;
+    height: 450px;
+    list-style: none;
+    padding: 0;
+}
+.list-scroll li {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0 5px;
+    text-align: -webkit-match-parent;
+}
+.ic-direct-map {
+    background-image: url(img/ic-direction.svg);
 }
