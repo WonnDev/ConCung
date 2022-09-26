@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reponsive.css">
 
 </head>
 <body>
@@ -305,10 +306,10 @@
                 <div class="logo">
                     <a href="index.html"><img src="img/logo_home.jpg"></a>
                 </div>
-                <div class="seach" style="position: relative;">
+                <div class="search" style="position: relative;">
                     <form class="search-box top-search"></form>                    
-                        <input class="input-search text-seach"  type="text" placeholder="Tìm kiếm nhanh">
-                        <button class="btn button-seach"></button>
+                        <input class="input-search text-search"  type="text" placeholder="Tìm kiếm nhanh">
+                        <button class="btn button-search"></button>
                     </form>
                 </div>
                 <div class="d-flex text-center" style="margin-left: 25px;">
@@ -365,7 +366,7 @@
 					</div>
                     <a href="#" class="">Xem toàn bộ</a>
                 </div>
-                <div class="group-card d-flex justify-content-evenly">
+                <div class="group-card d-flex">
                     <div class="card-item" style="width:9rem;padding: 10px 0;">
                         <div class="card" style="width: 150px;">
                             <img src="img/list_100k.jpg" class="img-fluid img-promotion" alt="">
@@ -570,7 +571,7 @@
     
             </div>
             <div class="product-item row">
-                <div class="banner-item col-4 d-flex">
+                <div class="banner-item col-4">
                     <div class="banner-img">
                         <img class="img-fluid banner-hover" style="height: 100%;" src="img/hover-banner.png" alt="">
                         <img class="img-fluid banner-behind" src="img/1662366419-CATE-MAINBANNER-PC-03.jpg" alt="">
@@ -834,7 +835,7 @@
             </div>
 
             <div class="product-item row">
-                <div class="banner-item col-4 d-flex">
+                <div class="banner-item col-4">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                         <img class="banner-hover" style="width:100%;height:101%;" src="img/hover-banner.png" alt="">
                         <div class="carousel-indicators">
@@ -1121,7 +1122,7 @@
 
             <div class="group-item-news-babycare">
                 <div class=" d-flex" >
-                    <div class="item-news-babycare" style="width: 500px;">
+                    <div class="item-news-babycare">
                         <div class="row">                                                        
                             <div class="col-4">
                                 <a href=""><img src="img/1923-1660208713-cover.webp" class="img-fluid" alt=""></a>
@@ -1141,7 +1142,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item-news-babycare" style="width: 500px;">
+                    <div class="item-news-babycare">
                         <div class="row">                                                        
                             <div class="col-4">
                                 <a href=""><img src="img/1923-1660208713-cover.webp" class="img-fluid" alt=""></a>
@@ -1161,7 +1162,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item-news-babycare" style="width: 500px;">
+                    <div class="item-news-babycare">
                         <div class="row">                                                        
                             <div class="col-4">
                                 <a href=""><img src="img/1923-1660208713-cover.webp" class="img-fluid" alt=""></a>
@@ -1201,7 +1202,7 @@
             </div>
             <div class="row another-product-item-list" style="flex-direction:column;">
                 <div class="col group-card" >
-                    <div class="row d-flex justify-content-between">
+                    <div class="row d-flex justify-content-evenly">
                         <div class="card-item" style="width:9rem;padding: 10px 0;">
                             <div class="card" style="width: 150px;">
                                 <img src="img/list_100k.jpg" class="img-fluid img-promotion" alt="">
@@ -1361,7 +1362,7 @@
                     </div>
                 </div>
                 <div class="col group-card">
-                    <div class="row d-flex justify-content-between">
+                    <div class="row d-flex justify-content-evenly">
                         <div class="card-item" style="width:9rem;padding: 15px 0;">
                             <div class="card" style="width: 150px;">
                                 <img src="img/list_100k.webp" class="img-fluid img-promotion" alt="">
@@ -1546,9 +1547,9 @@
     <section id="footer">
         <div class="footer-up">
             <div class="container">
-                <div class="row">
-                    <div class="col-7 d-flex" style="padding-top: 30px;flex-direction: column; text-align:center;align-items:center">
-                        <div class="title-banner-footer" style="padding-top:80px;margin-bottom: 10px;">
+                <div class="row" style="align-items: center;">
+                    <div class="col-7 icon-img-footer">
+                        <div class="title-banner-footer" style="margin-bottom: 10px;">
                             <span class="title-product font-concung color-pink" style="text-transform: uppercase;">
                                 tải ngay app con cưng
                                 <br>
@@ -1564,11 +1565,11 @@
                             </div>
                         </div>
                         <div class="scan-img d-flex" style="margin-top: 20px;flex-direction: column;">
-                            <a href=""><img style="height: 135px;" class="img-fluid" src="img/scanapp.svg" alt=""></a>
+                            <a href=""><img class="img-fluid" src="img/scanapp.svg" alt=""></a>
                             <a class="text-scan-img color-black" href="">Quét mã tải ngay</a>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-5 img-phone">
                         <a href=""><img src="img/app-info.png" class="img-fluid" style="max-width: 80%;" alt=""></a>
                     </div>
                 </div>

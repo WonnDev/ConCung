@@ -1,0 +1,110 @@
+/**Tablet**/
+@media screen and (max-width: 786px) {
+    /*header-ads*/
+    .header-ads {
+        display: none;
+    }
+    /*search-bar*/
+    .background-menubar {
+        font-size: 11px;
+    }
+    
+    .logo {
+        display: none;
+    }
+    .search {
+        width: 350px;
+    }
+    .input-search {
+        min-width: 450px;
+    }
+    .button-search {
+        right: -80px;
+    }
+    .group-card {
+        overflow-x: auto;
+        justify-content: unset;
+    }
+    
+    /**product**/
+    .banner-item {
+        display: none;
+    }
+    .list-item{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    /*all*/
+    .font-concung {
+        font-size: 14px;
+    }
+    a img .img-fluid {
+        width: 70px;
+        height: 70px;
+    }
+    .notify {
+        display: none;
+    }
+    .search {
+        width: 300px;
+    }
+    .input-search {
+        min-width: 350px;
+    }
+    .button-search {
+        right: -30px;
+    }
+    .card-img-top {
+        width: 90px;
+    }
+    .item-logo {
+        width: 90px;
+    }
+    .more-product a {
+        font-size: 11px;
+    }
+    .title-top a {
+        font-size: 11px;
+    }
+    .background-menubar .container {
+        height: auto !important;
+    }
+    .item-news-babycare {
+        width: 310px;
+    }
+    .mini-img-top-title{
+        max-width: 30px;
+    }
+    .item-mitt a {
+        font-size: 9px;
+    }
+    .title-info {
+        font-size: 13px;
+    }
+    .noti-title {
+        font-size: 8px;
+    }
+    .index-babycare {
+        font-size: 11px;
+        height: 50px;
+    }
+    .scan-img a img {
+        height: 70px;
+    }
+    .text-scan-img {
+        font-size: 11px;
+    }
+    /*footer*/
+    .title-top-info {
+        font-size: 9px;
+    }
+    .footer-under ul li {
+        font-size: 9px;
+    }
+    .group-icon-img a img {
+        width: 25px;
+    }
+    
+}
