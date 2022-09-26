@@ -27,20 +27,44 @@ body{
     width: max-content;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 100;
+    height: calc(100vh);
+    overflow-y: auto;
+    line-height: 2;
 }
 .menu-hover:hover .menu-hover-content {
     display: block;
 }
-.menu-hover-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    height: 200px;
+.button-close {
+    text-align: right;
 }
+.mini-title-item-menu-hover {
+    background: url(img/next-btn.svg) no-repeat top 7px right 70px;
+}
+.mini-title-item-menu-hover:hover {
+    background: url(img/up-btn.svg) no-repeat top 7px right 70px;
+}
+.index-item-menu-hover a {
+    cursor: pointer;
+    color: #373737;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+}
+.index-item-menu-hover:hover a:hover,
+.index-item-menu-hover:hover span:hover,
+.color-pink:hover {
+    color:#f54282;
+    
+}
+
+
 /*********/
 .color-pink{
     text-decoration: none;
-    color:#f54282
+    color:#f54282;
+}
+.pink-hover:hover{
+    color: #ee3e80;
 }
 .container{
     max-width: 1040px;
@@ -268,9 +292,7 @@ body{
 .more-product .list-item-scroll a{
     padding: 0;
 }
-.pink-hover:hover{
-    color: #ee3e80;
-}
+
 .carousel-control-next, .carousel-control-prev{
     z-index: 10 !important;
 }
